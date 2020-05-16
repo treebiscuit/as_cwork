@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+		<title>Enquries</title>
+		<link rel="stylesheet" href="../styles.css">
+	</head> 
+	<body>
+		<div class="text-center">
+			<h1 class="purple-text">
+				Please use the form below to send us any enquiries
+			</h1>
+			<h2 class="red-text">
+				Our hours are from 8am through to 6pm Mondays to Fridays, we'll try to get back to you as soon as possible!
+			</h2>
+			<form name="enquiryform" 
+				action="mailto:21420753@student.uwl.ac" 
+				method="get" 
+				enctype="text/plain" 
+				onsubmit=return(validateForm(document.enquiryform));>
+				<p>Name: <input type="text" name="name"/></p>
+				<p>Phone: <input type="text" name="phonenumber"/></p>
+				<p>Email: <input type="text" name="email"/></p>
+				<p>Comments:
+					<textarea name="comments" placeholder="Leave us your comments!" rows = "12" cols = "35"></textarea>
+					<br>
+				<p><input type="submit" name="submit" value="submit"/>
+					<input type="reset" name="reset" value="Clear Form" />
+				</p>
+			</form>
+			<h2>
+				<a href="mailto:21420753@student.uwl.ac?subject=enquiry">Or click here to send us an Email</a>
+			</h2>
+			<img src="../images/Fruit.jpg" alt=""  height=400 width=600 />
+		</div>
+		<div class="navigation-links">
+			<p><a href="../index.html">..Back to Home</a></p>
+			<p><a href="../pages/products.html">Products</a></p>
+			<p><a href="../pages/links.html">Links</a></p>
+			<p><a href="../pages/about.html">About</a></p>
+		</div>
+		<script type="text/javascript" src="../js/form-validation.js"></script>
+	</body>
+	<footer> 
+		<p>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer">
+				<img style="border:0;width:88px;height:31px"
+					src="http://jigsaw.w3.org/css-validator/images/vcss"
+					alt="Valid CSS!" />
+			</a>
+		</p>
+		<p><a href="../validation-results/enquiries.html-NuHtmlChecker.pdf" target="_blank">click for pdf of validation result for enquiries.html (opens in a new tab)</a></p>
+	</footer>	
+</html>

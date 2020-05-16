@@ -1,0 +1,96 @@
+html {
+      /* set the default font and background colour */
+    font-family: Verdana, sans-serif;
+    background: #FFEFBA;
+}
+
+body {
+  /* give the page a border so it doesn't look stretched out */
+  padding: 0 10vw;
+}
+
+td, th {
+    /* add some padding and a border to the table */
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+ul {
+    /* Makes sure the bullet points are centered along with the text */
+    list-style-position: inside;
+}
+
+.navigation-links {
+    /* Makes sure links are equally spaced horizontally */
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation-links a {
+    /* links have a style where the corners are slightly rounded.
+      The padding makes them take up more space so its easier
+      for the user to click on */
+    padding: 10px;
+    background: #940000;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.navigation-links a:hover {
+    /* Changes color slightly on hover - indicates that its active */
+    background: #ae0000;
+}
+
+
+.fruit-background {
+    /* The background from the welcome text on the home page */
+    background-image: url('./images/fruits_for_welcome.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.welcome-text {
+    /* Gives the welcome text an outline, so that it stands out
+    from the background image */
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    -webkit-text-fill-color: white; /* For overriding color if browser does not support outlines */
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.red-text {
+    color: red;
+}
+
+.purple-text {
+    color: purple;
+}
+
+.orange-text {
+    color: orange;
+}
+
+.green-text {
+    color: green;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.img-100x100 {
+    width: 100px;
+    height: 100px;
+}
